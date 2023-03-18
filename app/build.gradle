@@ -3,10 +3,11 @@ plugins {
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 }
+targetCompatibility = JavaVersion.VERSION_16
 
 group = 'co.devskills'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
+sourceCompatibility = "16"
 
 bootJar {
     enabled = false
